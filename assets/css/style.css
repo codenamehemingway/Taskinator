@@ -3,15 +3,16 @@
 }
 
 :root {
-  --primary: #44e9ff;
-  --secondary: #497980;
-  --tertiary: rgb(192, 246, 253);
+  --primary: #3c403d;
+  --secondary: #daded4;
+  --tertiary: #39603d;
   --grey: #333;
   font-size: 62.5%;
 }
 
 body {
-  background: #ededed;
+  background: #daded4;
+  background-image: url(/assets/images/background.jpg);
   color: var(--grey);
   margin: 0;
   padding: 0;
@@ -228,5 +229,4 @@ footer {
   .task-list-wrapper {
     flex-basis: 100%;
   }
-
 }
